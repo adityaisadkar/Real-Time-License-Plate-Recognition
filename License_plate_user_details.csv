@@ -1,0 +1,13 @@
+Number_Plate,Passing_region,Owner_Name,Contact_Number,Email_ID,PUC,Challan,Insurance_Valid,vehicle_type
+MH 12 AB 1234,Pune_Maharashtra,John Doe,9876543210,johndoe@gmail.com,Yes,No,Yes,2_Wheeler
+GJ 01 AA 4567,Ahmedabad_Gujarat,Jane Smith,8765432109,janesmith@gmail.com,Yes,Yes,No,2_Wheeler
+KA 05 BC 7890,Jayanagar_karnataka,Alice Johnson,7654321098,alicejohnson@gmail.com,No,No,Yes,2_Wheeler
+TN 10 CD 1234,Virugamvakkam_TamilNadu,Bob Williams,6543210987,bob@gmail.com,Yes,Yes,No,2_Wheeler
+HR 01 AF 1967,Ambalacant_Harayana,Tom Holland,8765432109,something@gmail.com,Yes,No,Yes,2_Wheeler
+MH 18 EQ 0001,Dhuel_Maharashtra,Jane Smith,8765432109,something@gmail.com,Yes,No,Yes,2_Wheeler
+RJ 14 CV 0002,Jaipur_Rajasthan,Peter Parker,8765432109,something@gmail.com,Yes,No,Yes,2_Wheeler
+TN 82 Y 8388,Ahmedabad_Gujarat,Jane Smith,8765432109,something@gmail.com,Yes,No,Yes,2_Wheeler
+MH 04 JM 8765,Thane_Maharashtra,Aditya Isadkar,9403412529,adityaisadkar940@gmail.com,No,No,No,4_Wheeler
+01 300 145,Ahmedabad_Gujarat,Jane Smith,8765432109,something@gmail.com,Yes,No,Yes,2_Wheeler
+MH 430D 2234,Ahmedabad_Gujarat,Aakanksha Kate,9168839562,aakankshakate29@gmail.com,Yes,No,Yes,4_Wheeler
+XX88 XY8888,Ahmedabad_Gujarat,Renuka Rajput,7447466157,renukarj9962@gmail.com,No,Yes,No,2_Wheeler
