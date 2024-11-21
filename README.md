@@ -7,10 +7,9 @@
 4. [Installation](#installation)  
 5. [Usage](#usage)  
 6. [Architecture](#architecture)  
-7. [Demo](#demo)  
-8. [Contributing](#contributing)  
+7. [Workflow](#workflow)  
+8. [Demo](#demo)  
 9. [License](#license)  
-10. [Contact](#contact)  
 
 ---
 
@@ -61,13 +60,13 @@ Follow these steps to set up the project locally:
    streamlit run Real_Time_License_Plate_Recognition.py
    ```
 
-### **Usage**
+### **5. Usage**
 
 1.  Launch the application and provide a live video feed as input.
 2.  The system detects and extracts license plate text in real time.
 3.  Alerts and notifications are sent automatically for pre-configured conditions.
 
-### **Architecture**
+### **6. Architecture**
 
 -  **Input Layer**: Captures live video or images.
 -  **Processing Layer**:
@@ -78,9 +77,12 @@ Follow these steps to set up the project locally:
     -  Displays detected plate details.
     -  Sends notifications for alerts.
 
-### **Workflow Diagram**
+### **7. Workflow Diagram**
 Available in Images folder
 
-### **LICENSE**
+### **8. Demo**
+Available in Images folder
+
+### **9. LICENSE**
 This project is licensed under the MIT License.
 
