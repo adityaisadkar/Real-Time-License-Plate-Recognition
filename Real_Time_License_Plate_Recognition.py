@@ -142,10 +142,10 @@ def get_current_location(api_key):
         return None
 
 # Replace 'YOUR_API_KEY' with your actual LocationIQ API key
-# Use this Site https://www.twilio.com/en-us to get details 
 api_key = 'YOUR_API_KEY'
 location = get_current_location(api_key)
 
+# Use this Site https://www.twilio.com/en-us to get details 
 def send_sms_notification(text, recipient_number):
     # Twilio credentials
     account_sid = "YOUR_ACCOUNT_SSID"
@@ -155,7 +155,7 @@ def send_sms_notification(text, recipient_number):
     # Send SMS notification
     message = client.messages.create(
         body=text,
-        from_="YOUR_NUMBER",  # Your Twilio number
+        from_="YOUR_Twilio_NUMBER",  # Your Twilio number
         to="+91" + str(recipient_number),  # The recipient's phone number
     )
 
@@ -272,7 +272,7 @@ def main():
                 break
             
             text, processed_image, cropped_image = extract_license_plate_text(frame)
-            video_placeholder.image(processed_image, channels="BGR", caption="Live Feed with Detected License Plate", use_column_width=True)
+            video_placeholder.image(processed_image, channels="BGR", caption="Live Feed with Detected License Plate", use_container_width=True)
             text_placeholder.markdown("<div class='text-box'><p>Detected License Plate Text: {}</p></div>".format(text), unsafe_allow_html=True)
 
             match_found = check_license_plate_in_csv(text, cropped_image)
